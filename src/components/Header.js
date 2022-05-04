@@ -26,15 +26,15 @@ function Header() {
                         <img src="images/home-icon.svg" alt="HOME" />
                         <span>HOME</span>
                     </Link>
-                    <Link className="link" >
+                    <Link className="link" to="" >
                         <img src="images/search-icon.svg" alt="SEARCH" />
                         <span>SEARCH</span>
                     </Link>
-                    <Link className="link" >
+                    <Link className="link" to="" >
                         <img src="images/watchlist-icon.svg" alt="WATCHLIST" />
                         <span>WATCHLIST</span>
                     </Link>
-                    <Link className="link" >
+                    <Link className="link" to="" >
                         <img src="images/original-icon.svg" alt="ORIGINAL" />
                         <span>ORIGINAL</span>
                     </Link>
@@ -42,19 +42,19 @@ function Header() {
                         <img src="images/movie-icon.svg" alt="MOVIES" />
                         <span>MOVIES</span>
                     </Link>
-                    <Link className="link" >
+                    <Link className="link" to="" >
                         <img src="images/series-icon.svg" alt="SERIES" />
                         <span>SERIES</span>
                     </Link>
                 </NavMenu>
                 <RightPart>
                     <Link to="/login">
-                        <UserImg src="images/user-image.jpg" alt='UserImg'/>
+                        <UserImg src="images/user-image.jpg" alt='UserImg' />
                     </Link>
                     <Icon>
                         <button onClick={HandelClick} >
                             {
-                                New ? <FaTimes className='tim' /> : <FaBars className='bar'/>
+                                New ? <FaTimes className='tim' /> : <FaBars className='bar' />
                             }
                         </button>
                     </Icon>
