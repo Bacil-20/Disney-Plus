@@ -16,11 +16,11 @@ function Detail() {
             {Movie &&
                 (<>
                     <Background>
-                        <img src={Movie.CoverImg} alt="" />
+                        <img src={Movie.CoverImg} alt={Movie.MovieName} />
                     </Background>
                     <Cont>
                         <Imagetitle>
-                            <img src={Movie.CardImg} alt="" />
+                            <img src={Movie.CardImg} alt={Movie.MovieName} />
                         </Imagetitle>
                         <PartTwo>
                             <Title>
@@ -30,18 +30,18 @@ function Detail() {
                             </Title>
                             <Controls>
                                 <PlayButton>
-                                    <img src="/images/play-icon-black.png" alt="" />
+                                    <img src="/images/play-icon-black.png" alt="Play" />
                                     <span>PLAY</span>
                                 </PlayButton>
                                 <TrailerButton>
-                                    <img src="/images/play-icon-white.png" alt="" />
+                                    <img src="/images/play-icon-white.png" alt="Trailer" />
                                     <span>TRAILER</span>
                                 </TrailerButton>
                                 <AddButton>
                                     <span>+</span>
                                 </AddButton>
                                 <GroupWatchButton>
-                                    <img src="/images/group-icon.png" alt="" />
+                                    <img src="/images/group-icon.png" alt="Icon" />
                                 </GroupWatchButton>
                             </Controls>
                             <SubTaitle>

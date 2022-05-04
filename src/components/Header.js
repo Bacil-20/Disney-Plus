@@ -23,33 +23,33 @@ function Header() {
                 <NavMenu id="navid" onClick={HandelNavbar}
                     className={New ? "NavBar" : ""}>
                     <Link className="link" to="/">
-                        <img src="images/home-icon.svg" alt="" />
+                        <img src="images/home-icon.svg" alt="HOME" />
                         <span>HOME</span>
                     </Link>
-                    <a className="link" >
-                        <img src="images/search-icon.svg" alt="" />
+                    <Link className="link" >
+                        <img src="images/search-icon.svg" alt="SEARCH" />
                         <span>SEARCH</span>
-                    </a>
-                    <a className="link" >
-                        <img src="images/watchlist-icon.svg" alt="" />
+                    </Link>
+                    <Link className="link" >
+                        <img src="images/watchlist-icon.svg" alt="WATCHLIST" />
                         <span>WATCHLIST</span>
-                    </a>
-                    <a className="link" >
-                        <img src="images/original-icon.svg" alt="" />
+                    </Link>
+                    <Link className="link" >
+                        <img src="images/original-icon.svg" alt="ORIGINAL" />
                         <span>ORIGINAL</span>
-                    </a>
+                    </Link>
                     <Link className="link" to="/movies">
-                        <img src="images/movie-icon.svg" alt="" />
+                        <img src="images/movie-icon.svg" alt="MOVIES" />
                         <span>MOVIES</span>
                     </Link>
-                    <a className="link" >
-                        <img src="images/series-icon.svg" alt="" />
+                    <Link className="link" >
+                        <img src="images/series-icon.svg" alt="SERIES" />
                         <span>SERIES</span>
-                    </a>
+                    </Link>
                 </NavMenu>
                 <RightPart>
                     <Link to="/login">
-                        <UserImg src="images/user-image.jpg" />
+                        <UserImg src="images/user-image.jpg" alt='UserImg'/>
                     </Link>
                     <Icon>
                         <button onClick={HandelClick} >
